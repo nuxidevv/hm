@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "siteName": "Lumière",
+  "categories": [
+    { "id": "nouveautes", "name": "Nouveautés" },
+    { "id": "archives", "name": "Archives" },
+    { "id": "documentaires", "name": "Documentaires" },
+    { "id": "experimental", "name": "Expérimental" }
+  ],
+  "videos": [
+    {
+      "id": "video-001",
+      "title": "Aurore boréale — Laponie",
+      "file": "videos/video-001.mp4",
+      "poster": "posters/video-001.webp",
+      "categories": ["nouveautes", "documentaires"],
+      "description": "Captation nocturne des aurores boréales en Laponie finlandaise.",
+      "addedAt": "2026-10-21T00:00:00.000Z",
+      "published": true
+    },
+    {
+      "id": "video-002",
+      "title": "Abstraction liquide",
+      "file": "videos/video-002.mp4",
+      "poster": "posters/video-002.webp",
+      "categories": ["nouveautes", "experimental"],
+      "description": "Étude visuelle de fluides en macro slow-motion.",
+      "addedAt": "2026-10-15T00:00:00.000Z",
+      "published": true
+    },
+    {
+      "id": "video-003",
+      "title": "Archives — Paris 1962",
+      "file": "videos/video-003.mp4",
+      "poster": "posters/video-003.webp",
+      "categories": ["archives", "documentaires"],
+      "description": "Séquence d'archives restaurée en 4K.",
+      "addedAt": "2026-09-02T00:00:00.000Z",
+      "published": true
+    }
+  ]
+}
